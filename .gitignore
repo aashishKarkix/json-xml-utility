@@ -1,0 +1,36 @@
+# Ignore directories
+.gradle/
+.idea/
+build/
+gradle/
+src/main/java/utility/
+
+# Ignore specific files
+logback.xml
+
+# Ignore Gradle specific files
+gradlew
+gradlew.bat
+
+# Ignore system-specific files
+*.iml  # IntelliJ IDEA project files
+*.class  # Compiled Java classes
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Maven specific files
+target/
+
+# Ignore generated documentation files
+/build/reports/
+
+# Ignore any other temporary or backup files
+*.log
+*.tmp
+*.swp
+
+# Ignore operating system generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
